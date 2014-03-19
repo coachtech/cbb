@@ -18,18 +18,18 @@ team_12 = set()
 all_teams = set()
 
 ## Get Team Names and Create a list for each team
-team1 = [input('Which team finished in 1st place? '),False, team_1]
-team2 = [input('Which team finished in 2nd place? '), False, team_2]
-team3 = [input('Which team finished in 3rd place? '),False, team_3]
-team4 = [input('Which team finished in 4th place? '),False, team_4]
-team5 = [input('Which team finished in 5th place? '),False, team_5]
-team6 = [input('Which team finished in 6th place? '),False, team_6]
-team7 = [input('Which team finished in 7th place? '),False, team_7]
-team8 = [input('Which team finished in 8th place? '),False, team_8]
-team9 = [input('Which team finished in 9th place? '),False, team_9]
-team10 = [input('Which team finished in 10th place? '),False, team_10]
-team11 = [input('Which team finished in 11th place? '),False, team_11]
-team12 = [input('Which team finished in 12th place? '),False, team_12]
+team1 = [raw_input('Which team finished in 1st place? '),False, team_1]
+team2 = [raw_input('Which team finished in 2nd place? '), False, team_2]
+team3 = [raw_input('Which team finished in 3rd place? '),False, team_3]
+team4 = [raw_input('Which team finished in 4th place? '),False, team_4]
+team5 = [raw_input('Which team finished in 5th place? '),False, team_5]
+team6 = [raw_input('Which team finished in 6th place? '),False, team_6]
+team7 = [raw_input('Which team finished in 7th place? '),False, team_7]
+team8 = [raw_input('Which team finished in 8th place? '),False, team_8]
+team9 = [raw_input('Which team finished in 9th place? '),False, team_9]
+team10 = [raw_input('Which team finished in 10th place? '),False, team_10]
+team11 = [raw_input('Which team finished in 11th place? '),False, team_11]
+team12 = [raw_input('Which team finished in 12th place? '),False, team_12]
 
 allteams = [team1, team2, team3, team4, team5, team6, team7, team8,team9,team10,team11,team12]
 
