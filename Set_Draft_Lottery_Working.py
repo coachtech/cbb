@@ -31,21 +31,20 @@ team10 = [raw_input('Which team finished in 10th place? '),False, team_10]
 team11 = [raw_input('Which team finished in 11th place? '),False, team_11]
 team12 = [raw_input('Which team finished in 12th place? '),False, team_12]
 
-allteams = [team1, team2, team3, team4, team5, team6, team7, team8,team9,team10,team11,team12]
 
 ### adding new set items to all_teams
 def add_to_set(set):
-    all_teams.update(set)
+  all_teams.update(set)
 
 ## populating the team with random numbers
 def populate(team, balls):
-    y = 0
-    while y < balls:
-        x = random.randint(1,78)
-        if x not in all_teams:
-            team.add(x)
-            y += 1
-        add_to_set(team)
+  y = 0
+  while y < balls:
+    x = random.randint(1,78)
+    if x not in all_teams:
+      team.add(x)
+      y += 1
+  add_to_set(team)
 
 
 ## Populating Teams with Random Numbers
