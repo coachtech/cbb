@@ -1,7 +1,20 @@
 import random
 import time
 
-ranked_teams = ()
+ranked_teams = (
+  'Foreskins',
+  'Moonkins',
+  'RunTHC',
+  'Flush It Down',
+  'BJ',
+  'mr crawdad',
+  'choco thunder',
+  'Grackles',
+  'TBM',
+  'Wojos',
+  'Omni Sci',
+  'Larry Nances',
+)
 
 
 ordinal = lambda n: '%d%s' % (n, 'tsnrhtdd'[(n/10%10 != 1) * (n% 10 < 4) * n % 10::4])
@@ -13,7 +26,7 @@ def seed_teams():
     for iter in range(12):
       num_balls = iter + 1
       raw_input('Which team finished in %s place? ' % ordinal(num_balls))
-      teams[iter] = num_balls
+      teams[t] = num_balls
   else:
     i = 1
     for t in ranked_teams:
