@@ -215,11 +215,11 @@ else:
     z =  ("The third pick goes to "+ team12[0])
 
 
-time.sleep(2)
-print ("The third number selected was the number " +str(p3) + ". " + z + ".")
 time.sleep(5)
+print ("The third number selected was the number " +str(p3) + ". " + z + ".")
+time.sleep(8)
 print()
 print ("The second number selected was the number " + str(p2) + ". " + y + ".")
 time.sleep(10)
 print()
-print ("The first number selected was the number " + str(p3) + ". " + x + ". Congratulations!")
+print ("The first number selected was the number " + str(p1) + ". " + x + ". Congratulations!")
